@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dayana - Examen final</title>
+    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./stilos.css" />
+  </head>
+  <body>
+    <header class="top-bar bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="./img/logo.png"
+              alt="Logo de la Misión Adventista"
+              width="100"
+              class="img-fluid" />
+          </a>
+
+          <!-- Botón de menú colapsable -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Contenido colapsable -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobrelamision.html"
+                  >Sobre la Misión</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="programascomun.html"
+                  >Programas Comunitarios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="testimonios.html">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contacto</a>
+              </li>
+            </ul>
+            <!-- Barra de búsqueda -->
+            <div class="d-flex">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Buscar actividades, noticias, recursos" />
+              <button class="btn btn-outline-secondary" type="button">
+                Buscar
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container my-4">
+      <h2 class="text-center mb-3">Testimonios</h2>
+      <div
+        id="testimonialsCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Testimonio de un Voluntario -->
+          <div class="carousel-item active">
+            <div class="card">
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    "Participar en las actividades de voluntariado de la misión
+                    ha cambiado mi vida. He aprendido el valor del servicio
+                    desinteresado y he visto el impacto directo que podemos
+                    tener en la vida de los demás."
+                  </p>
+                  <footer class="blockquote-footer">
+                    Juan Pérez, <cite title="Source Title">Voluntario</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonio de un Beneficiario -->
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    "Gracias a los programas de ayuda alimentaria de la misión,
+                    mi familia ha podido superar tiempos difíciles. Estoy
+                    agradecido por el apoyo y la calidez que hemos recibido."
+                  </p>
+                  <footer class="blockquote-footer">
+                    María López, <cite title="Source Title">Beneficiaria</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonio de un Miembro de la Comunidad -->
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    "Los talleres educativos y las actividades culturales
+                    organizadas por la misión han enriquecido nuestra comunidad,
+                    brindando oportunidades de aprendizaje y crecimiento para
+                    todos."
+                  </p>
+                  <footer class="blockquote-footer">
+                    Ana González,
+                    <cite title="Source Title">Miembro de la Comunidad</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <!-- Continuación del carrusel de testimonios... -->
+
+          <!-- Testimonio de un Educador -->
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    "Como profesor en los talleres de la misión, he visto cómo
+                    la educación transforma vidas. Es increíblemente
+                    gratificante ver a personas de todas las edades
+                    entusiasmadas por aprender y crecer."
+                  </p>
+                  <footer class="blockquote-footer">
+                    Carlos Fernández, <cite title="Source Title">Educador</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonio de un Participante en Programas de Salud -->
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    "Los programas de salud y bienestar de la misión me han
+                    ayudado a adoptar un estilo de vida más saludable. Los
+                    talleres y los recursos proporcionados han sido una fuente
+                    de inspiración y apoyo constante."
+                  </p>
+                  <footer class="blockquote-footer">
+                    Laura Martínez,
+                    <cite title="Source Title">Participante</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonio de un Joven Voluntario -->
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>
+                    "Ser parte de los programas juveniles de la misión me ha
+                    dado un sentido de propósito y comunidad. He desarrollado
+                    habilidades de liderazgo y he hecho amistades duraderas."
+                  </p>
+                  <footer class="blockquote-footer">
+                    Sofía Rodríguez,
+                    <cite title="Source Title">Joven Voluntaria</cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cierre del carrusel... -->
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonialsCarousel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonialsCarousel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+
+    <footer class="footer" id="footerContent">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Sobre Nuestra Misión</h3>
+          <p>
+            Como parte de la comunidad Adventista, nos dedicamos a apoyar
+            proyectos de servicio comunitario y a fomentar un estilo de vida
+            saludable y sostenible.
+          </p>
+          <div id="digital-clock" class="clock"></div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contacto de la Misión</h3>
+          <p>Dirección: Sede Central de Misión Adventista, Calle Ejemplo 456</p>
+          <p>Teléfono: +1 555 123 4567</p>
+          <p>Email: mision@adventista.org</p>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6401.614958620979!2d-68.13953700112887!3d-16.492310154269553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1701974946525!5m2!1ses!2sbo"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <p class="credits">Developed: Dayana Ponce</p>
+    </footer>
+  </body>
+</html>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+  crossorigin="anonymous"></script>
+<script src="./mijs.js"></script>
